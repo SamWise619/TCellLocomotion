@@ -33,14 +33,16 @@ The simulation includes the following physical mechanisms:
 
 Compile the code using `g++` with OpenMP support:
 
-```
+```bash
 g++ -fopenmp -O3 -g -o main *.cpp
-
+```
 Running a Simulation
 
 Run the executable with an input parameter file:
 
+```bash
 ./main input.txt
+```
 Required Input Files
 
 The simulation requires the following files, which are specified inside input.txt:
