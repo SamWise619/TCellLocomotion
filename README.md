@@ -8,8 +8,7 @@ Input parameter file (input.txt): This file lists various parameters used by the
 
 Must supply positions.xyz, bonds.bnd, and angles.ang files for the input position, bond, and angle files, respectively, into input.txt (see example files).
 
-# Revision - Improvement README
-# TCellLocomtion
+# Revision - Improvement README - TCellLocomtion
 
 2D Bead-Spring Model of T Cell Locomotion
 
@@ -22,15 +21,25 @@ Model Overview
 The simulation includes the following physical mechanisms:
 
 cortical and nuclear stretching forces
+
 bending rigidity of the cortex and nucleus
+
 cell and nuclear area conservation
+
 cortex–nucleus centering force
+
 excluded-volume interactions between the cell, nucleus, and obstacles
+
 rear contractile forces
+
 leading-edge force generation
+
 compartment boundary formation between the cortex and nucleus
+
 optional blebbing through oscillatory cortical spring stiffness
+
 optional repolarization through shifting leading-edge bead identities
+
 Compilation
 
 Compile the code using g++ with OpenMP support:
@@ -57,20 +66,35 @@ Key Parameters
 Important parameters in input.txt include:
 
 dt — integration time step
+
 totalSimulationTime — total simulated time
+
 snapshotTime — time interval between saved snapshots
+
 K_Stretch — cortical stretching stiffness
+
 K_Stretch_nuc — nuclear stretching stiffness
+
 K_Area_CM — cortical area conservation stiffness
+
 K_Area_nuc — nuclear area conservation stiffness
+
 kCenter — cortex–nucleus centering stiffness
+
 kExcl_CM — excluded-volume stiffness between cell and nucleus
+
 kExcl_Obs — excluded-volume stiffness between cell and obstacles
+
 F_Mag_Front — magnitude of front-directed active force
+
 Ratio — ratio used to determine rear contractile force
+
 CB_On — turns compartment boundary formation on or off
+
 blebbing — turns oscillatory leading-edge stiffness on or off
+
 changeDirection — turns repolarization on or off
+
 Output Files
 
 The simulation writes output files named using the outputName parameter.
@@ -78,6 +102,7 @@ The simulation writes output files named using the outputName parameter.
 Typical output files include:
 
 out-<outputName>.xyz — particle positions, bead types, and force components over time
+
 out-<outputName>.bnd — bond information over time
 
 These output files are primarily intended for visualization and analysis. They may not be directly restart-compatible with the original input file format.
