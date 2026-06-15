@@ -81,8 +81,10 @@ The simulation writes output files named using the outputName parameter.
 
 Typical output files include:
 
+```bash
 - out-<outputName>.xyz — particle positions, bead types, and force components over time
 - out-<outputName>.bnd — bond information over time
+```
 
 These output files are primarily intended for visualization and analysis. They may not be directly restart-compatible with the original input file format.
 
