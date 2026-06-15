@@ -44,9 +44,10 @@ Required Input Files
 
 The simulation requires the following files, which are specified inside input.txt:
 
-positions.xyz — initial bead positions, bead types, tags, and viscosity types
+positions.xyz — initial bead positions, bead types, tags, and force types
 bonds.bnd — bond connectivity and bond types
 angles.ang — angle connectivity and angle types
+
 input.txt — simulation parameters and file paths
 
 Example input files are included in the repository.
@@ -63,13 +64,14 @@ K_Stretch_nuc — nuclear stretching stiffness
 K_Area_CM — cortical area conservation stiffness
 K_Area_nuc — nuclear area conservation stiffness
 kCenter — cortex–nucleus centering stiffness
-kExcl_CM — excluded-volume stiffness between cell and nucleus
-kExcl_Obs — excluded-volume stiffness between cell and obstacles
+kExcl_CM — excluded-volume stiffness between cell membrane/cortex and nucleus
+kExcl_Obs — excluded-volume stiffness between cell membrane/cortex and obstacles
 F_Mag_Front — magnitude of front-directed active force
 Ratio — ratio used to determine rear contractile force
 CB_On — turns compartment boundary formation on or off
 blebbing — turns oscillatory leading-edge stiffness on or off
 changeDirection — turns repolarization on or off
+
 Output Files
 
 The simulation writes output files named using the outputName parameter.
