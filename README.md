@@ -59,9 +59,9 @@ Key Parameters
 
 Important parameters in input.txt include:
 
-dt — integration time step
-totalSimulationTime — total simulated time
-snapshotTime — time interval between saved snapshots
+- dt — integration time step
+- totalSimulationTime — total simulated time
+- snapshotTime — time interval between saved snapshots
 K_Stretch — cortical stretching stiffness
 K_Stretch_nuc — nuclear stretching stiffness
 K_Area_CM — cortical area conservation stiffness
