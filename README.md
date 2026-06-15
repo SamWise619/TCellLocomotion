@@ -62,18 +62,18 @@ Important parameters in input.txt include:
 - dt — integration time step
 - totalSimulationTime — total simulated time
 - snapshotTime — time interval between saved snapshots
--K_Stretch — cortical stretching stiffness
--K_Stretch_nuc — nuclear stretching stiffness
--K_Area_CM — cortical area conservation stiffness
--K_Area_nuc — nuclear area conservation stiffness
--kCenter — cortex–nucleus centering stiffness
--kExcl_CM — excluded-volume stiffness between cell membrane/cortex and nucleus
--kExcl_Obs — excluded-volume stiffness between cell membrane/cortex and obstacles
--F_Mag_Front — magnitude of front-directed active force
--Ratio — ratio used to determine rear contractile force
--CB_On — turns compartment boundary formation on or off
--blebbing — turns oscillatory leading-edge stiffness on or off
--changeDirection — turns repolarization on or off
+- K_Stretch — cortical stretching stiffness
+- K_Stretch_nuc — nuclear stretching stiffness
+- K_Area_CM — cortical area conservation stiffness
+- K_Area_nuc — nuclear area conservation stiffness
+- kCenter — cortex–nucleus centering stiffness
+- kExcl_CM — excluded-volume stiffness between cell membrane/cortex and nucleus
+- kExcl_Obs — excluded-volume stiffness between cell membrane/cortex and obstacles
+- F_Mag_Front — magnitude of front-directed active force
+- Ratio — ratio used to determine rear contractile force
+- CB_On — turns compartment boundary formation on or off
+- blebbing — turns oscillatory leading-edge stiffness on or off
+- changeDirection — turns repolarization on or off
 
 Output Files
 
