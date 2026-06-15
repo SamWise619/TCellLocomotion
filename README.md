@@ -33,7 +33,6 @@ The simulation includes the following physical mechanisms:
 
 Compile the code using `g++` with OpenMP support:
 
-```bash
 g++ -fopenmp -O3 -g -o main *.cpp
 
 Running a Simulation
