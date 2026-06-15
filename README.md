@@ -12,9 +12,8 @@ The simulation includes the following physical mechanisms:
 - bending rigidity of the cortex and nucleus
 - cell and nuclear area conservation
 - cortex–nucleus centering force
-- excluded-volume interactions between the cell, nucleus, and obstacles
+- excluded-volume interactions between the cell membrane/cortex, nucleus, and obstacles
 - rear contractile forces
-- leading-edge force generation
 - compartment boundary formation between the cortex and nucleus
 - optional blebbing through oscillatory cortical spring stiffness
 - optional repolarization through shifting leading-edge bead identities
