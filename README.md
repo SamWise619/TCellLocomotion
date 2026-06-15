@@ -8,26 +8,7 @@ Input parameter file (input.txt): This file lists various parameters used by the
 
 Must supply positions.xyz, bonds.bnd, and angles.ang files for the input position, bond, and angle files, respectively, into input.txt (see example files).
 
-# Revision - Improvement README - TCellLocomtion
-
-2D Bead-Spring Model of T Cell Locomotion
-
-If GitHub is not displaying the bullets correctly, make sure:
-
-The file is named README.md (the .md extension is important).
-There is a blank line before each bullet list.
-Each bullet starts with - (dash followed by a space).
-
-Code blocks are enclosed by three backticks:
-
-```bash
-command here
-```
-You are viewing the file in GitHub's rendered Markdown view rather than the raw text view.
-
-The README below is already written in GitHub Markdown format and should render correctly when saved as README.md.
-
-# 2D Bead-Spring Model of T Cell Locomotion
+# Revision: 2D Bead-Spring Model of T Cell Locomotion
 
 This repository contains a 2D bead-spring simulation code for modeling T cell migration through obstacle environments. The model represents the cell cortex and nucleus as closed bead-spring boundaries and evolves their positions under mechanical and active forces.
 
