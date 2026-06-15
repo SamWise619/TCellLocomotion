@@ -1,14 +1,4 @@
-# TCellLocomotion
-
-2D bead-spring code that simulates cell migration in obstacle environments by evolving the cell and nucleus boundaries according to forces of stretching, bending, centering, contraction, and area conservation under the effect of a nuclear piston. This code was developed for the simulations in Alawadhi, Rutkowski, Tagay, Cartagena-Rivera, Zhovmer, Tysgankov, Vavylonis, and Tabdanov, TBD.
-
-Compilation using g++: g++ -fopenmp -O3 -g -o main *.cpp
-
-Input parameter file (input.txt): This file lists various parameters used by the simulation. Command to run code: ./main input.txt
-
-Must supply positions.xyz, bonds.bnd, and angles.ang files for the input position, bond, and angle files, respectively, into input.txt (see example files).
-
-# Revision: 2D Bead-Spring Model of T Cell Locomotion
+# 2D Bead-Spring Model of T Cell Locomotion
 
 This repository contains a 2D bead-spring simulation code for modeling T cell migration through obstacle environments. The model represents the cell cortex and nucleus as closed bead-spring boundaries and evolves their positions under mechanical and active forces.
 
