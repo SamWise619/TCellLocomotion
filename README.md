@@ -64,6 +64,19 @@ Important parameters in input.txt include:
 - blebbing — turns oscillatory leading-edge stiffness on or off
 - changeDirection — turns repolarization on or off
 
+Hardcoded parameters not currently in input.txt:
+
+- numNucBeads = 100
+- numCMBeads = 200
+- numLeadingEdgeBeads = 41
+- d_seal = 1.3043478
+- timeLag = 123.36953
+- updateGridTime = 1.0
+- saveInterval = 70 * snapshotStep
+- calciumActivationFactor = 1.5
+- repolarizationInterval = 16000.0
+- K_Stretch_min = 10000.0
+  
 Output Files
 
 The simulation writes output files named using the outputName parameter.
