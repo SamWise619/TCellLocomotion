@@ -4,6 +4,10 @@ totalSimulationTime 10000.0
 snapshotTime 30.84
 numThreads 1
 
+numNucBeads 100
+numCMBeads 200
+numLeadingEdgeBeads 41
+
 eta 21281.24398
 beadRadius 0.043478261
 temperature 300.0
