@@ -36,9 +36,9 @@ Required Input Files
 
 The simulation requires the following files, which are specified inside input.txt:
 
-positions.xyz — initial bead positions, bead types, tags, and force types
-bonds.bnd — bond connectivity and bond types
-angles.ang — angle connectivity and angle types
+- positions.xyz — initial bead positions, bead types, tags, and force types
+- bonds.bnd — bond connectivity and bond types
+- angles.ang — angle connectivity and angle types
 
 input.txt — simulation parameters and file paths
 
