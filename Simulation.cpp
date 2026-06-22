@@ -90,9 +90,18 @@ void Simulation::readParameterFile(std::string fileName)
         std::string line;
         std::string delimiter = " ";
               
-		while(std::getline(inputfile, line)) 
+		while(std::getline(inputfile, line))
 		{	
-
+			// Skip empty lines
+			if (line.empty()) 
+			{
+				continue;
+			}
+			// Skip comment lines
+			if (line[0] == '#') 
+			{
+			    continue;
+			}
             size_t position = line.find(delimiter);
             std::string category = line.substr(0, position);
             
