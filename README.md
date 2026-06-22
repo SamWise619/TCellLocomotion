@@ -66,16 +66,16 @@ Important parameters in input.txt include:
 
 Hardcoded parameters not currently in input.txt:
 
-- numNucBeads = 100 beads
-- numCMBeads = 200 beads
-- numLeadingEdgeBeads = 41 beads
-- d_seal = 1.3043478 μm
-- timeLag = 123.36953 s
-- updateGridTime = 1.0 s
+- numNucBeads = 100beads
+- numCMBeads = 200beads
+- numLeadingEdgeBeads = 41beads
+- d_seal = 1.3043478μm
+- timeLag = 123.36953s
+- updateGridTime = 1.0s
 - saveInterval = 70 * snapshotStep
 - calciumActivationFactor = 1.5
-- repolarizationInterval = 16000.0 s
-- K_Stretch_min = 10000.0 pN/μm
+- repolarizationInterval = 16000.0s
+- K_Stretch_min = 10000.0pN/μm
   
 Output Files
 
