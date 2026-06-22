@@ -66,9 +66,9 @@ Important parameters in input.txt include:
 
 Hardcoded parameters not currently in input.txt:
 
-- numNucBeads = 100beads
-- numCMBeads = 200beads
-- numLeadingEdgeBeads = 41beads
+- numNucBeads = 100 beads
+- numCMBeads = 200 beads
+- numLeadingEdgeBeads = 41 beads
 - d_seal = 1.3043478μm
 - timeLag = 123.36953s
 - updateGridTime = 1.0s
