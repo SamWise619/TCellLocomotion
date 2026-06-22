@@ -132,6 +132,18 @@ void Simulation::readParameterFile(std::string fileName)
             {
                 snapshotTime = std::stod(value);
             }
+			else if(category.compare("numNucBeads") == 0)
+            {
+                numNucBeads = std::stod(value);
+            }
+			else if(category.compare("numCMBeads") == 0)
+            {
+                numCMBeads = std::stod(value);
+            }
+			else if(category.compare("numLeadingEdgeBeads") == 0)
+            {
+                numLeadingEdgeBeads = std::stod(value);
+            }
             else if(category.compare("persistenceLength") == 0)
             {
                 persistenceLength = std::stod(value);
